@@ -1,0 +1,92 @@
+/*====================================
+*     Site-General            *
+====================================*/
+body{
+	font-family:Poppins,Arial,sans-serif;
+}
+h1{
+	color:#374048;
+	font-size: 4.9rem;
+	font-weight: 600;
+}
+h2{
+	color:#374048;
+	font-size: 3rem;
+	font-weight: 600;
+}
+h3{
+	color:#374048;
+	font-size: 2.2rem;
+	font-weight: 600;
+}
+h4{
+	color:#374048;
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+
+.hr-sub{
+
+}
+
+.backround-grey{
+	background-color:#f8fbfd;
+
+}
+
+.sub-header{
+	color:#969da3;
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+
+p{
+	color: #c0cad0;
+	font-size:1.1rem;
+	font-weight: 300;
+
+}
+
+.btn-round{
+	border-radius: 66px;
+}
+/*=====  End of Site-General  ======*/
+
+/*===========================
+*            Nav            *
+===========================*/
+header{
+	background:#eaebf0;
+}
+
+
+/*=====  End of Nav  ======*/
+
+/*==================================
+*            Top Banner            *
+==================================*/
+
+#top-jumbo{
+	width:100%;
+	text-align: center;
+	background:url('../images/header-background.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+#top-jumbo .jumbotron{
+	background-color: transparent;
+}
+
+#top-jumbo img{
+	display: block;
+}
+
+#top-jumbo .btn-round{
+	background:#3f97ff;
+}
+.navbar-light .navbar-nav .nav-link:last-child{
+	background:#ff6622;
+	color:#FFFFFF;
+}
+/*=====  End of Top Banner  ======*/
+
