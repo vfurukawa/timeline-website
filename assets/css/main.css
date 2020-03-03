@@ -1,11 +1,28 @@
+/*====================================
+*            General Page            *
+====================================*/
+
 body{
 	background: #000000;
+	overflow: scroll;
 }
+
+p{
+	font-family: 'Josefin Slab';
+}
+
+
+/*=====  End of General Page  ======*/
+
+/*==============================
+*            Banner            *
+==============================*/
 
 header .jumbotron-fluid{
 	background:url('../images/coverphoto.png') center center no-repeat;
 	text-align: center;
 	background-size:100% 100%;
+	margin-bottom: 0;
 }
 
 header .jumbotron-fluid h1{
@@ -14,3 +31,31 @@ header .jumbotron-fluid h1{
 	text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;
 	color:#000000;
 }
+
+/*=====  End of Banner  ======*/
+
+/*====================================
+*            Picture Rows            *
+====================================*/
+
+.year-row .year-tile{
+	float: left;
+}
+
+/*=====  End of Picture Rows  ======*/
+
+
+/*===================================
+*            Media Query            *
+===================================*/
+
+@media only all and (max-width: 1040px) {
+header .jumbotron-fluid  h1 {
+    font-size:4rem;
+  }
+}
+
+
+/*=====  End of Media Query  ======*/
+
+
