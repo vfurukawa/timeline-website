@@ -38,7 +38,7 @@ header .jumbotron-fluid h1{
 *            Picture Rows            *
 ====================================*/
 
-.year-row .year-tile{
+.year-row img{
 	float: left;
 }
 
