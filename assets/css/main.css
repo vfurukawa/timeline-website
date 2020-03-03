@@ -11,6 +11,12 @@ p{
 	font-family: 'Josefin Slab';
 }
 
+.container{
+	margin: 0;
+	border:0;
+	padding: 0;
+}
+
 
 /*=====  End of General Page  ======*/
 
@@ -39,7 +45,7 @@ header .jumbotron-fluid h1{
 ====================================*/
 
 .year-row img{
-	float: left;
+	
 }
 
 /*=====  End of Picture Rows  ======*/
