@@ -1,0 +1,30 @@
+
+
+HTML:
+
+Add a scrolling wrapper class to define exactly what should be scrolling and where:
+<section class="year-row fluid" id="t1960">
+			<div class="clearfix">
+				<div class="scrolling-wrapper">
+					<img  class="year-tile" src="assets/images/dark-tiles/1960.png">
+					<img src="assets/images/dark-tiles/1960x1.png">
+					<img src="assets/images/dark-tiles/1960x2.png">
+					<img src="assets/images/dark-tiles/1960x3.png">
+					<img src="assets/images/dark-tiles/1960x4.png">
+					<img src="assets/images/dark-tiles/1960x5.png">
+				</div>
+			</div>
+		</section>
+    
+    
+    CSS:
+   TEll the scrolling wrapper on which axis to scroll and not to wrap
+    .scrolling-wrapper{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+    }
+    Explicitly state that the images in here are inline-block
+    .scrolling-wrapper .img {
+        display: inline-block;
+      }
